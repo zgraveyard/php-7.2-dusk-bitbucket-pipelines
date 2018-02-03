@@ -6,7 +6,7 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 
 LABEL Maintainer="Zaher Ghaibeh <z@zah.me>" \
       Description="A simple PHP 7.2 image which contain just the minimum required to run Dusk on bitbucket pipelines." \
-      org.label-schema.name="php-7.2-xdebug-alpine" \
+      org.label-schema.name="php-7.2-dusk-bitbucket-pipelines" \
       org.label-schema.description="A simple PHP 7.2 image which contain just the minimum required to run Dusk on bitbucket pipelines." \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.vcs-url="https://github.com/linuxjuggler/php-7.2-dusk-bitbucket-pipelines" \
