@@ -14,12 +14,14 @@ LABEL Maintainer="Zaher Ghaibeh <z@zah.me>" \
       org.label-schema.schema-version="1.0.0"
 
 
-RUN apt-get update && apt-get install -y unzip zlib1g-dev libxpm4 libxrender1 libgtk2.0-0 libnss3 libgconf-2-4 \
+RUN apt-get update \
+    && apt-get install -y unzip zlib1g-dev libxpm4 libxrender1 libgtk2.0-0 libnss3 libgconf-2-4 \
     chromium xvfb gtk2-engines-pixbuf xfonts-cyrillic xfonts-100dpi xfonts-75dpi xfonts-base xfonts-scalable \
     imagemagick x11-apps \
     && docker-php-ext-install zip \
-    && apt-get autoremove \
-    && rm -rf /var/lib/apt/lists/* \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \    
-    && Xvfb -ac :0 -screen 0 1280x1024x16 &
+    && apt-get autoremove \
+    && rm -rf /var/lib/apt/lists/*
 
+
+RUN Xvfb -ac :0 -screen 0 1280x1024x16 &
