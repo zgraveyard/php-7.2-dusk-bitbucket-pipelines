@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y unzip zlib1g-dev libxpm4 libxrender1 li
     imagemagick x11-apps \
     && docker-php-ext-install zip \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
-    && Xvfb -ac :0 -screen 0 1280x1024x16 & \
     && apt-get autoremove \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* \
+    && Xvfb -ac :0 -screen 0 1280x1024x16 &
 
