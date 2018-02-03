@@ -1,5 +1,7 @@
 # PHP image to run dusk on Pipelines
 
+[![](https://images.microbadger.com/badges/image/zaherg/php-7.2-dusk-bitbucket-pipelines.svg)](https://microbadger.com/images/zaherg/php-7.2-dusk-bitbucket-pipelines "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/zaherg/php-7.2-dusk-bitbucket-pipelines.svg)](https://microbadger.com/images/zaherg/php-7.2-dusk-bitbucket-pipelines "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/commit/zaherg/php-7.2-dusk-bitbucket-pipelines.svg)](https://microbadger.com/images/zaherg/php-7.2-dusk-bitbucket-pipelines "Get your own commit badge on microbadger.com")
+
 This is a simple PHP 7.2 image which contain just the minimum required to run Laravel Dusk on bitbucket pipelines.
 
 You can read more about it from this post [https://mhdzaherghaibeh.name/2018/02/03/running-laravel-dusk-tests-on-bitbucket-the-easy-way/](https://mhdzaherghaibeh.name/2018/02/03/running-laravel-dusk-tests-on-bitbucket-the-easy-way/)
