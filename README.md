@@ -4,7 +4,7 @@
 
 This is a simple PHP 7.2 image which contain just the minimum required to run Laravel Dusk on bitbucket pipelines.
 
-You can read more about it from this post [https://mhdzaherghaibeh.name/2018/02/03/running-laravel-dusk-tests-on-bitbucket-the-easy-way/](https://mhdzaherghaibeh.name/2018/02/03/running-laravel-dusk-tests-on-bitbucket-the-easy-way/)
+You can read more about it from this post [https://zah.me/2018/02/03/running-laravel-dusk-tests-on-bitbucket-the-easy-way/](https://zah.me/2018/02/03/running-laravel-dusk-tests-on-bitbucket-the-easy-way/)
 
 ## bitbucket-pipeline example
 
